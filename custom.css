@@ -1,4 +1,7 @@
 .alert {
-  color: red;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
   font-family: Arial, Helvetica, serif;
+  text-align: center;
 }
