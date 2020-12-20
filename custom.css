@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 .alert {
   color: red;
   font-family: Arial, Helvetica, serif;
-=======
-.alert alert-primary {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
->>>>>>> ebfd1a0f4582e13bd41d5b7e50837a7c68ec5534
 }
