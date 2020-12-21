@@ -4,7 +4,6 @@
 .jumbotron{
   background-image: url(https://raw.githubusercontent.com/arossi1262/Soulestial-Circles-Landing-Page/main/STARJOURNAL.jpg);
   background-size: cover;
-  background-position: top left;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -12,6 +11,12 @@
   text-emphasis-color: black;
   opacity: .75;
   text-shadow:black 0px 0px 10px;
+}
+@media only screen and (max-width: 900px) {
+  .jumbotron {
+      background-position-x: center;
+      background-position-y: bottom;
+  }
 }
 .mask{
   width: 100%;
@@ -44,9 +49,7 @@
 .header{
   text-align: center;
 }
-.about{
-  
-}
+
 .emoji{
   font-style: normal;
 }
