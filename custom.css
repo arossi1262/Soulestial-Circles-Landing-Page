@@ -5,17 +5,17 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-left: -1em;
-  margin-right: -.76em;
+  margin-right: -.74em;
   margin-bottom: 0;
 }
 .display-4 {
   text-align: center;
   font-weight: 700;
-  transform: translateY(300px);
+  transform: translateY(250px);
 }
 .lead{
   text-align: center;
-  transform: translateY(300px);
+  transform: translateY(250px);
   font-weight: 400
 }
 .navbar-nav{
