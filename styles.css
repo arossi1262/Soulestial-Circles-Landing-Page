@@ -8,7 +8,6 @@
   background-attachment: fixed;
   height: 100vh;
   width: auto;
-  opacity: .75;
   position: relative;
 }
 .top-btn-primary{
@@ -16,8 +15,8 @@
   width: 24%;
   margin-left: 38%;
   margin-right: 38%;
-  background-color: #9105d4;
-  border-color: #9105d4;
+  background-image: linear-gradient(#A737DC, #7404A9);
+  border-color: white;
   border-radius: 12px;
   color: white;
 }
@@ -29,8 +28,8 @@
   padding-right: 125px;
 }
 .container-1{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .inspiration-row{
   align-items: center;
@@ -43,6 +42,13 @@
   width: 100%;
   text-align: center;
   font-style: italic;
+}
+.header{
+  margin-top:25px;
+  margin-bottom: 16px;
+}
+.about1{
+  margin-bottom: 25px;
 }
 .emoji{
   font-style: normal;
@@ -62,11 +68,24 @@
   font-style: italic;
   text-shadow:black 0px 0px 10px;
   margin-bottom: 0;
+  display: grid;
+}
+.cta{
+  margin:auto
+}
+.cta1{
+  margin-bottom:0;
+}
+.cta2{
+  margin-bottom: 0;
 }
 .lead{
   text-align: center;
   transform: translateY(250px);
   font-weight: 400
+}
+.navbar-brand{
+  float:left
 }
 .navbar-nav{
   position: absolute;
@@ -88,6 +107,7 @@
 }
 .footer{
   background-color: #9105d4 ;
+  margin-top: 20px;
 }
 .no-gutters{
   margin-right: 0;
@@ -97,8 +117,8 @@
   text-align: center;
   width: fit-content;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 50px;
   color: white;
 }
@@ -119,4 +139,7 @@
   .form1{
     padding-left: 10px;
   }
+}
+.payments{
+  margin-bottom: 16px;
 }
